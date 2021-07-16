@@ -6,7 +6,7 @@ function willNotBlend(obj) {
   return obj.blendable !== "It will blend";
 }
 
-function willItBlend(someObject) {
+export function willItBlend(someObject) {
   console.log(arguments);
   // console.log(arguments.forEach((a) => console.log(a)));
   console.log([...arguments]);

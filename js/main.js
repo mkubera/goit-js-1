@@ -1,5 +1,8 @@
 "use strict";
 
+import { willItBlend } from "./functions.js";
+console.log(willItBlend);
+
 const myVariable = "Hello, world";
 const myName = "Mikolaj";
 let counter = 0;
